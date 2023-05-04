@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.main_container{
+	font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 1045px;
+    margin: 14px auto;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 27px;
+    height: 917px;
+	display:flex;
+	
+}
+.card_container1{
+	margin:51px 0px;
+}
+.image_section1>img{
+	width:482px;
+	border-radius: 10px;
+}
+.image_section2{
+	display:flex;
+	justify-content:flex-start;
+	align-items: center;
+	gap:14px;
+}
+.image_section2>img{
+	width: 110px;
+    margin: 7px 0px;
+    height: 85px;
+    object-fit: cover;
+    object-position: center;
+	border-radius: 10px;
+}
+.image2{
+	border: 2px solid blue;
+    border-radius: 8px;
+}
+.card_container2{
+	margin:48px 0px;
+	padding:0px 26px;
+    border: 1px solid transparent;
+}
+.heading_section>h3{
+    font-size: 25.2px;	
+}
+.heading_section .rate{
+    margin: 4px 0px;
+    font-size: 25px;
+}
+.icon_section{
+	margin: 8px 0px;
+    letter-spacing: -2px;
+}
+.fa-solid{
+	color:blue;
+}
+.star5{
+	color:lightgray;
+}
+.heading_section .para1{
+    margin: 29px 0px 20px;
+    width: 479px;	
+	line-height:19px;
+}
+.color_section{
+	margin:21px 0px 10px;
+}
+.color_palatte{
+    margin: 3px -4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circle1_border{
+	width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.circle1{
+	width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+}
+.circle2{
+	width: 25px;
+    height: 25px;
+    background-color: white;
+	border:1px solid lightgray;
+    border-radius: 50%;
+}
+.circle3{
+	width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.addtobag_section{
+    background-color: blue;
+    margin: 22px 0px 19px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    width: 257px;
+}
+.addtobag_section>a{
+	text-decoration:none;
+	font-weight:600;
+	color:white;
+}
+.heart_section{
+    padding: 2px 23px;
+    font-size: 16px;
+}
+.accordin_section{
+	margin: 44px 0px;
+}
+.heading_section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid;
+    padding: 27px 0px;
+    margin: 10px 0px;
+}
